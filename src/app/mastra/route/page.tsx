@@ -2,19 +2,24 @@
 
 import ChatInterface from '@/components/chatInterface';
 import { useChat } from '@ai-sdk/react';
+import { DefaultChatTransport } from 'ai';
 
 export default function chat() {
-  const { messages, sendMessage, status, error } = useChat({});
+  const { messages, sendMessage, status, error } = useChat({
+    transport: new DefaultChatTransport({
+      api: '/api/chat2'
+    })
+  });
 
   return (
     <div className="flex flex-col h-screen max-w-4xl mx-auto p-4">
       {/* Header */}
       <div className="mb-4 pb-4 border-b border-gray-200 dark:border-gray-700">
         <h1 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
-          Chat Assistant
+          Chat Assistant (No krakenD)
         </h1>
         <p className="text-sm text-gray-600 dark:text-gray-400">
-          Powered by Vercel AI SDK
+          AI UI SDK -> API Route (Mastra Client) -> Mastra REST API
         </p>
       </div>
 

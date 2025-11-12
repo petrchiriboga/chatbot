@@ -11,10 +11,10 @@ export default function chat() {
       {/* Header */}
       <div className="mb-4 pb-4 border-b border-gray-200 dark:border-gray-700">
         <h1 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
-          Chat Assistant
+          Chat Assistant 
         </h1>
         <p className="text-sm text-gray-600 dark:text-gray-400">
-          Powered by Vercel AI SDK
+          AI UI SDK -> API Route (Mastra Client) -> KrakenD -> Mastra REST API
         </p>
       </div>
 
