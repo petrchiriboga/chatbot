@@ -3,19 +3,19 @@
 import { UIMessage } from '@ai-sdk/react';
 import { useState } from 'react';
 
-interface ChatInterfaceProps {
+interface ChatFormProps {
   messages: UIMessage[];
   sendMessage: (message: { text: string }) => void;
   status: 'awaiting_message' | 'streaming' | 'error';
   error?: Error;
 }
 
-export default function ChatInterface({
+export default function ChatForm({
   messages,
   sendMessage,
   status,
   error,
-}: ChatInterfaceProps) {
+}: ChatFormProps) {
   const [input, setInput] = useState('');
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {

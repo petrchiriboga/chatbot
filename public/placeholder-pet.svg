@@ -1,0 +1,22 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="50" fill="#E5E7EB"/>
+
+  <!-- Paw Print -->
+  <g transform="translate(50, 50)">
+    <!-- Main Pad -->
+    <ellipse cx="0" cy="8" rx="12" ry="14" fill="#9CA3AF"/>
+
+    <!-- Top Left Toe -->
+    <ellipse cx="-12" cy="-8" rx="6" ry="8" fill="#9CA3AF" transform="rotate(-20 -12 -8)"/>
+
+    <!-- Top Center Toe -->
+    <ellipse cx="-3" cy="-14" rx="6" ry="8" fill="#9CA3AF" transform="rotate(-5 -3 -14)"/>
+
+    <!-- Top Right Toe -->
+    <ellipse cx="6" cy="-12" rx="6" ry="8" fill="#9CA3AF" transform="rotate(10 6 -12)"/>
+
+    <!-- Right Toe -->
+    <ellipse cx="13" cy="-4" rx="6" ry="8" fill="#9CA3AF" transform="rotate(25 13 -4)"/>
+  </g>
+</svg>

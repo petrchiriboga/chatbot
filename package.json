@@ -15,10 +15,16 @@
     "@mastra/ai-sdk": "^0.2.6",
     "@mastra/client-js": "^0.16.9",
     "@mastra/core": "^0.24.0",
+    "@radix-ui/react-select": "^2.2.6",
     "ai": "^5.0.83",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "firebase": "^12.6.0",
+    "lucide-react": "^0.553.0",
     "next": "14.2.33",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
     "@types/node": "^20",
